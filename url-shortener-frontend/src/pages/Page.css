@@ -1,0 +1,117 @@
+/* Modern, dynamic, and professional page styling */
+.page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  padding: 32px 16px;
+  background: linear-gradient(135deg, #f0f4f9 0%, #e9eafc 100%);
+  border-radius: 18px;
+  box-shadow: 0 6px 32px rgba(60, 72, 88, 0.10), 0 1.5px 6px rgba(60, 72, 88, 0.06);
+  margin: 32px auto;
+  max-width: 600px;
+  transition: box-shadow 0.2s;
+}
+
+.page:hover {
+  box-shadow: 0 12px 48px rgba(60, 72, 88, 0.18), 0 3px 12px rgba(60, 72, 88, 0.10);
+}
+
+.page h2 {
+  font-size: 2.2rem;
+  color: #2d3a4a;
+  margin-bottom: 24px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.page p {
+  color: #4a5568;
+  font-size: 1.1rem;
+  margin-bottom: 18px;
+}
+
+.page form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+  max-width: 350px;
+  margin: 0 auto 18px auto;
+}
+
+.page input[type="text"],
+.page input[type="email"],
+.page input[type="password"] {
+  padding: 10px 14px;
+  border: 1px solid #c3c8d6;
+  border-radius: 6px;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.2s;
+  background: #fff;
+}
+
+.page input:focus {
+  border-color: #6c63ff;
+  box-shadow: 0 0 0 2px #e0e7ff;
+}
+
+.page button {
+  padding: 10px 0;
+  background: linear-gradient(90deg, #6c63ff 0%, #48b1f7 100%);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s, box-shadow 0.2s;
+  box-shadow: 0 2px 8px rgba(76, 110, 245, 0.08);
+}
+
+.page button:hover {
+  background: linear-gradient(90deg, #48b1f7 0%, #6c63ff 100%);
+  box-shadow: 0 4px 16px rgba(76, 110, 245, 0.13);
+}
+
+.page table {
+  width: 100%;
+  max-width: 500px;
+  border-collapse: collapse;
+  margin: 24px 0;
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(60, 72, 88, 0.07);
+}
+
+.page th, .page td {
+  padding: 12px 10px;
+  text-align: left;
+}
+
+.page th {
+  background: #f4f6fb;
+  color: #2d3a4a;
+  font-weight: 600;
+  border-bottom: 2px solid #e2e8f0;
+}
+
+.page td {
+  border-bottom: 1px solid #e2e8f0;
+  color: #4a5568;
+}
+
+.page a {
+  color: #6c63ff;
+  text-decoration: none;
+  transition: color 0.2s;
+  word-break: break-all;
+}
+
+.page a:hover {
+  color: #48b1f7;
+  text-decoration: underline;
+}
